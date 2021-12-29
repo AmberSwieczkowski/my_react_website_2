@@ -69,12 +69,12 @@ const InfoSection = ({
   paragraphOne,
   paragraphTwo,
   buttonLabel,
-  reverse,
   image,
+  reverse,
 }) => {
   return (
     <Section>
-      <Container>
+      <Container reverse={reverse}>
         <ColumnLeft>
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
